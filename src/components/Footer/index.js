@@ -1,8 +1,4 @@
 import React from 'react';
-import tmbd from '../../assets/tmbd.svg';
-import react from '../../assets/react2.svg';
-import redux from '../../assets/redux.svg';
-// import axios from '../../assets/axios.svg';
 import './footer.css';
 
 const Footer = () => {
