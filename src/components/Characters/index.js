@@ -31,9 +31,9 @@ const Characters = () => {
             return (
               <div key={idx} className="card-characters" onClick={() => navigate(`/character-details/${idx+1}`)}>
                 <div className="card-characters-container">
-                  <h4><b>{item.name}</b></h4>
-                  <p>Gender: {item.gender}</p>
-                  <p>Hair Color: {item.hair_color}</p>
+                  <h4><b>{item?.name}</b></h4>
+                  <p>Gender: {item?.gender}</p>
+                  <p>Hair Color: {item?.hair_color}</p>
                 </div>
               </div>
             )

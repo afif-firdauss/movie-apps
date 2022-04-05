@@ -32,9 +32,9 @@ const CharacterDetail = () => {
           {
             !loading ? (
               <div>
-                <h4><b>{character.name}</b></h4>
-                <p className='mb-0'>Gender: {character.gender}</p>
-                <p className='mb-0'>Eye Color: {character.eye_color}</p>
+                <h4><b>{character?.name}</b></h4>
+                <p className='mb-0'>Gender: {character?.gender}</p>
+                <p className='mb-0'>Eye Color: {character?.eye_color}</p>
               </div>
             ) : (
               <Loader/>

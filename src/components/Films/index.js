@@ -28,9 +28,9 @@ const Films = () => {
             return (
               <div key={idx} className="card-film">
                 <div className="card-film-container">
-                  <h4><b>{item.title}</b></h4>
-                  <p>Release Date: {item.release_date}</p>
-                  <p>Director: {item.director}</p>
+                  <h4><b>{item?.title}</b></h4>
+                  <p>Release Date: {item?.release_date}</p>
+                  <p>Director: {item?.director}</p>
                 </div>
               </div>
             )
