@@ -1,0 +1,93 @@
+.navbar {
+  background-color: #02416b;
+  width: 100%;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+
+.navbar nav ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.navbar nav ul li {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar nav ul li:hover {
+  opacity: 0.8;
+}
+
+.navbar img {
+  cursor: pointer;
+}
+
+.profile {
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+  right: 60px;
+  margin: 0;
+  top: 55px;
+  padding: 10px 5px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+.sign-out {
+  cursor: pointer;
+}
+
+.sign-out:hover {
+    color:  #02416b;
+  }
+
+.sign-out hr {
+  margin: 4px 0;
+}
+
+.sign-out p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.link-to {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin: 5px 20px 5px 0;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.link-to:hover {
+  color: white;
+}
+
+.header-btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: #02416b;
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    right: 20px;
+    top: 55px;
+  }
+}

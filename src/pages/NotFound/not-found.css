@@ -1,0 +1,27 @@
+.not-found h1 {
+  font-size: 70px;
+  line-height: 45px;
+  font-weight: bolder;
+  color: #02416b;
+}
+
+.not-found span {
+  font-size: 40px;
+}
+
+.not-found-link {
+  background: #02416b;
+  border-radius: 81px;
+  color: white;
+  padding: 10px  30px;
+  margin-top: 15px;
+}
+
+.not-found-link:hover {
+  background: #02416b;
+  color: white;
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  opacity: 0.96;
+  font-weight: 400;
+}
