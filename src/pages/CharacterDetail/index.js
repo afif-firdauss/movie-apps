@@ -34,7 +34,11 @@ const CharacterDetail = () => {
               <div>
                 <h4><b>{character?.name}</b></h4>
                 <p className='mb-0'>Gender: {character?.gender}</p>
+                <p className='mb-0'>Height: {character?.height}</p>
+                <p className='mb-0'>Birth Year: {character?.birth_year}</p>
                 <p className='mb-0'>Eye Color: {character?.eye_color}</p>
+                <p className='mb-0'>Skin Color: {character?.skin_color}</p>
+                <p className='mb-0'>Hair Color: {character?.hair_color}</p>
               </div>
             ) : (
               <Loader/>
